@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'net.serenity-bdd', name: 'serenity-core', version: '2.0.9'
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.0.9'
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.0.9'
+    compile group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.0.9'
+    compile group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.45'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version:'1.7.9'
+}
