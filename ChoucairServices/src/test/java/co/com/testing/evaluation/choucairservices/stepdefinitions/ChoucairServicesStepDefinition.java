@@ -33,7 +33,7 @@ public class ChoucairServicesStepDefinition {
         OnStage.theActorInTheSpotlight().wasAbleTo(Open.url("https://www.choucairtesting.com/"));
     }
 
-    @When("^Advance to Services$")
+    @Given("^Advance to Services$")
     public void advanceToServices() {
         OnStage.theActorInTheSpotlight().attemptsTo(ToServices.goToServices());
     }
