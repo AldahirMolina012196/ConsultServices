@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features="src\\test\\resources\\features\\consult_services.feature",
-        glue ="co.com.testing.evaluation.choucairservices",
+        glue ="co.com.testing.evaluation.choucairservices.stepdefinitions",
         snippets = SnippetType.CAMELCASE,
         dryRun = false,
-        tags="@test"
+        tags="@Verify_Digital"
 )
 public class ChoucairServicesRunner {
 
