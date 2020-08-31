@@ -7,4 +7,5 @@ public class ServicesPage {
     public static final Target TITLE = Target.the("Title compared").locatedBy("(//h2[@class='elementor-heading-title elementor-size-large'])[{0}]");
     public static final Target BUTTON_KNOW_MORE = Target.the("Button know more about digital performance monitoring").locatedBy("(//span[@class='elementor-button-content-wrapper'])[1]");
     public static final Target BUTTON_COURSES = Target.the("Button courses and certifications").locatedBy("(//span[@class='elementor-button-content-wrapper'])[2]");
+    public static final Target IMG_AUTOMATION = Target.the("The imagen validated existence").locatedBy("(//img[@class='attachment-medium_large size-medium_large'])[15]");
 }

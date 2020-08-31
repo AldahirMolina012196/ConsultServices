@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         features="src\\test\\resources\\features\\consult_services.feature",
         glue ="co.com.testing.evaluation.choucairservices.stepdefinitions",
         snippets = SnippetType.CAMELCASE,
-        dryRun = false,
-        tags="@Verify_Digital"
+        dryRun = false
+        //tags = "@Verify_Digital"
 )
 public class ChoucairServicesRunner {
 

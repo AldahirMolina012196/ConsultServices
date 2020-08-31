@@ -35,6 +35,12 @@ Feature: Consult Services
       | Aldahir | Molina Velasquez | Medellin | 3104533888  | amv.choucair@testing.com | independiente | Testing choucair for certification analyst Aldahir Molina |
     Then Send message is validated
 
+  @Validate_Image
+  Scenario: Validate existence of image in the Payroll evidence section
+    When Testing Automation is selected
+    Then The existence of the image was validated
+
+
 
 
 
